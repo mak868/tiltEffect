@@ -6,19 +6,22 @@ How to
 -------
 
 Include `tiltEffect.css` in `<head>`:
-    
-    <link rel="stylesheet" href="tiltEffect/tiltEffect.css">
-    
-Include *jQuery* and `tiltEffect.js` somewhere in the page:
+```html
+<link rel="stylesheet" href="tiltEffect/tiltEffect.css">
+```
 
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="tiltEffect/tiltEffect.js"></script>
+Include *jQuery* and `tiltEffect.js` somewhere in the page:
+```html
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="tiltEffect/tiltEffect.js"></script>
+```
 
 Add the `tile` class to the element:
-
-    <div class="tile">
-        Tile content goes here...
-    </div>
+```html
+<div class="tile">
+    <!-- Tile content goes here -->
+</div>
+```
 
 Supported browser
 -------
