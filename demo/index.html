@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Salvatore Gentile">
+    <title>tiltEffect - Metro Tiles Tilt Effect</title>
+
+    <link rel="stylesheet" href="./tiltEffect/tiltEffect.css">
+    <style type="text/css">
+        .content{
+            width: 420px;
+        }
+
+        .tile {
+            background-color: #f90;
+            color: #fff;
+            height: 200px;
+            float: left;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 300;
+            margin: 10px 10px 0 0;
+            position: relative;
+            width: 200px;
+        }
+
+        .tile.large {
+            width: 410px;
+        }
+
+        img {
+            display: block;
+            height: 100%;
+            margin: auto;
+            width: auto;
+        }
+        span {
+            bottom: 6px;
+            font-size: 13pt;
+            left: 12px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="tile">
+            <img src="icons/phone.png" alt="Phone">
+            <span>Phone</span>
+        </div>
+
+        <div class="tile">
+            <img src="icons/messaging.png" alt="Messaging">
+            <span>Messaging</span>
+        </div>
+
+        <div class="tile large">
+            <img src="icons/mail.png" alt="Mail">
+            <span>Mail</span>
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="./tiltEffect/tiltEffect.js"></script>
+    <script>
+    	$(document).ready(function(){
+        	$('.tile').tiltEffect();
+        });
+    </script>
+</body>
