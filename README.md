@@ -1,6 +1,6 @@
 tiltEffect
 ==========
-![The MIT License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)
+![The MIT License](http://img.shields.io/badge/license-MIT-green.svg?style=flat)&nbsp;
 [![Live Demo](http://img.shields.io/badge/live-DEMO-ff9900.svg?style=flat)](https://salgnt.github.io/tiltEffect/demo)
 
 A simple jQuery plugin to add a tilt effect to an HTML element, just like tiles in Windows 8 and Windows Phone.
