@@ -5,9 +5,6 @@ tiltEffect
 
 A simple jQuery plugin to add a tilt effect to an HTML element, just like tiles in Windows 8 and Windows Phone.
 
-#### Live Demo
----------
-
 
 How to
 ------
